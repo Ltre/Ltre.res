@@ -1,0 +1,2 @@
+# Ltre.res
+static res
