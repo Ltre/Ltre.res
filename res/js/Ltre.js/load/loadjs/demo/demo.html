@@ -1,0 +1,1 @@
+<html><head><script src="../load.js"></script></head><body><script>//同步载入试验var l = Ltrelib.load;l(window, {    a: 'a.js',    b: 'b.js',    c: 'c.js'}, function(lib){    with(lib){        console.log([a,b,c]);    }});</script></body></html>
